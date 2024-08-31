@@ -1,0 +1,7 @@
+.prodcol { text-align:center;width:33%;float:left; }
+    .secvids { padding: 0 0 0 8px; width: 300px; height:215px; float: right; }
+    .secInlineVid { width:250px;float:right;text-align:center; }
+    @media (max-width: 550px) {
+    .prodcol { width:100%;float:none; }
+    .secvids { padding: 8px; width: 100%; float: none; box-sizing:border-box; }
+}

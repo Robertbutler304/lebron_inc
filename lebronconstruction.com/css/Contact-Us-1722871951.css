@@ -1,0 +1,9 @@
+/* ======================================================================== */
+/* ============================ Contact Page ============================== */
+/* ======================================================================== */
+.contact_info_wrap { float:left;position:relative;width:49%; }
+.map_wrap { margin:0px 0px 20px 0px;float:right;position:relative;text-align:center;width:49%;border-radius:0px;box-shadow:#000000 0px 0px 4px 1px; }
+@media (max-width:768px) {
+	.contact_info_wrap { float: none;width: 100%; }
+	.map_wrap { margin:12px 0 0 0;float:none;width:100%; }
+}

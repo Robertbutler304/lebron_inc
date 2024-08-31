@@ -1,0 +1,699 @@
+.maincontent{
+  max-width:100%;
+}
+html,
+body {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: calc(2vw + 1.5rem);
+  font-family: antique-olive-nord, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #c59a37;
+  ;
+}
+
+h2 {
+  font-size: calc(1vw + 1.5rem);
+  font-family: antique-olive-nord, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #c59a37;
+}
+
+h3 {
+  font-size: calc(.8vw + 1rem);
+  font-family: antique-olive-nord, sans-serif;
+  font-weight: 300;
+  /* color:#ececec; */
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-family: lithos-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* color:#ececec; */
+
+}
+
+h5 {
+  font-size: 1rem;
+  font-family: lithos-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* color:#ececec; */
+
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* color:#ececec; */
+}
+
+img {
+  width: 100%;
+}
+
+/* #wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+} */
+
+/* .download {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #fff;
+} */
+
+.download:hover {
+  color: #6B7AEE;
+}
+
+.brochure {
+  margin-top: 20px;
+  max-width: 350px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap; 
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.btn {
+  background: transparent;
+  font-size: calc(.4vw + .5rem);
+  color: #c59a37;
+  font-weight: 500;
+  border: 2px solid #c59a37;
+  padding: 12px 10px 14px;
+  margin: 10px auto;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: -1px;
+  -webkit-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  -webkit-transition: all 0.25s linear;
+}
+
+.btn:hover {
+  background: #c59a37;
+  border: 1px solid #D1C130;
+  color: #fff;
+}
+
+/* ==================== Hero ========================= */
+
+.hero-container {
+  position: relative;
+  max-height: 800px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.hero-logo {
+  position: absolute;
+  max-width: 700px;
+  top: 10%;
+  left: 5%;
+}
+
+/* ======================== Innovation ======================== */
+
+.innovation {
+  position: relative;
+  padding: 8%;
+}
+
+.innovation-inner .content {
+  padding: 5vw 3% 0 3%;
+}
+
+.innovation-inner-img {
+  display:flex;
+  align-items:flex-end;
+  margin-bottom:0;
+}
+
+.innovation-inner .para {
+  margin: 2% 0 4% 0;
+  padding: 0 15% 0 3%;
+}
+
+.innovation-tagline {
+  position: absolute;
+  font-size: calc(1.6vw + 1rem);
+  top: -40%;
+  right: 2%;
+  max-width: 70vw;
+  text-align: right;
+  color: #c59a37;
+  text-transform: uppercase;
+  box-shadow: 9px 9px 24px -9px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 9px 9px 24px -9px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 9px 9px 24px -9px rgba(0, 0, 0, 0.2);
+  background: #ececec;
+  padding: 5% 2%;
+  margin: 0;
+}
+
+/* =================== Warranty ==================== */
+
+.warranty {
+  position: relative;
+  background:linear-gradient(to right, rgba(0,0,0,0.5)0%, rgba(0,0,0,0.3)100%), url('../imageserver/Reusable/tamko2021/woodgate-shingle-LrgBrown-min.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.warranty-box {
+  padding: 7% 0 10% 10%;
+  color: #fff;
+  width: 100%;
+}
+
+#warranty-heading {
+  font-size: calc(.8vw + 1rem);
+  font-family: antique-olive-nord, sans-serif;
+}
+
+#warranty-img {
+  float: left;
+  max-width: 100px;
+  padding-right: 10px;
+}
+
+.warranty-tagline {
+  font-size: calc(1.6vw + 1rem);
+  float: right;
+  max-width: 70vw;
+  text-align: right;
+  color: #c59a37;
+  text-transform: uppercase;
+  background: #ececec;
+  padding: 5% 2%;
+  margin: -5% 0 0 0;
+  box-shadow: 9px 9px 24px -9px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 9px 9px 24px -9px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 9px 9px 24px -9px rgba(0, 0, 0, 0.2);
+}
+
+.warranty p{
+  padding: 20px 0;
+  max-width: 60vw;
+  color: #ececec;
+  font-size: 1.2rem;
+}
+
+/* =========================== Products ======================== */
+
+/* .overlay {
+  z-index: 1;
+  position: relative;
+} */
+
+.product-sec {
+  background: #fafafa;
+  padding:15% 0 0;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.product-container {
+  width:90vw;
+  max-width: 95vw;
+  margin: 0 auto 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.product-sec .col {
+  float: left;
+  position: relative;
+}
+
+.product-sec .coll4 {
+  width: 25%;
+  max-width: 400px;
+  margin: 0 10px;
+}
+
+.product-sec .col .heading {
+  margin: 0 10px;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: calc(1vw + .5rem);
+  color: #c59a37;
+}
+
+.product-sec .col .heading:before {
+  z-index: 0;
+}
+
+.product-sec .col .sub-title {
+  color: #ececec;
+  display: block;
+  letter-spacing: 4px;
+  font-size: calc(1vw + .4rem);
+  margin: 0;
+}
+
+.product-sec .col:hover .box,
+.product-sec .col:hover .over {
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-sec .col:hover .over {
+  left: 1.5vw;
+  right: 1.5vw;
+  top: 1.5vw;
+  bottom: 1.5vw;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-sec .col .box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  background: rgba(0, 0, 0, 0.85);
+  -webkit-transition: all 0.25s linear;
+}
+
+.product-sec .col .over {
+  padding: 0 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #fff;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+}
+
+.product-container h4:first-child {
+  padding: 15% 0 0;
+}
+
+.product-container h4:nth-child(2) {
+  padding: 2% 0 0;
+}
+
+.product-container h4:nth-child(3) {
+  padding: 2% 0 0;
+}
+
+.shingle img:not(.shingle-house) {
+  margin: 20px 0;
+  border: 12px ridge #e5e1d9;
+}
+
+.shingle-house:hover {
+  transform: scale(1.5);
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.56);
+  transition: .5s;
+  z-index: 3;
+}
+
+.shingle-house {
+  transform: scale(1);
+  transition: .5s;
+  margin-bottom: 10px;
+}
+
+/* .box {
+  border: 12px ridge #e5e1d9;
+} */
+
+/*  ====================== About ====================== */
+
+#about .main-header {
+  padding: 75px 4%;
+  background-image: url('../imageserver/Reusable/tamko2021/titan-shingle-bg.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about hr {
+  border-top: 2px solid #c59a37;
+  max-width: 60%;
+}
+
+#about p {
+  color: #ececec;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 90vw;
+  font-size: 1.2rem;
+}
+
+#about h2 {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/*  ====================== Detail ========================== */
+
+.detail-container {
+  background-image: linear-gradient(to bottom, rgba(245, 245, 245, .8) 0%, rgba(245, 245, 245, .4) 100%), url('../imageserver/Reusable/tamko2021/StormFighter-IR---Fractal-Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 2% 5% 4%;
+}
+
+.detail-heading {
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 0 0 3%;
+  text-align: center;
+}
+
+.detail-list {
+  width: 70%;
+  max-width: 1000px;
+}
+
+.detail-list p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.detail-img {
+  padding: 2vw 0 0;
+  text-align: center;
+}
+
+/*  ===================== Bottom ================= */
+
+.bottom-sec .main-header {
+  background-image: linear-gradient(180deg, rgba(51, 51, 51, .7) 0%, rgba(51, 51, 51, .9) 100%), url('../imageserver/Reusable/tamko2021/heading-bg.png');
+  background-position: center;
+  background-size: cover;
+  padding: 75px 4%;
+}
+
+.bottom-sec .main-header h2{
+  margin:0 auto;
+}
+
+.bottom-wrapper {
+  max-width: 85vw;
+  margin: 0 auto;
+}
+
+.bottom-sec .main-header p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  color:#ececec;
+}
+
+/* ------------------------- Media Queries -------------------- */
+
+@media (max-width: 1299px) {
+  .product-sec {
+    width: 100vw;
+  }
+
+  .hero-container {
+    max-height: 700px;
+  }
+
+  #product-container {
+    width: 100vw;
+  }
+
+  .product-sec .coll3 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-header {
+    padding: 40px 20px;
+  }
+
+  .innovation-inner .content {
+    padding: 2vw 1% 0 1%;
+  }
+
+  .innovation-inner .para {
+    margin: 1% 0 1% 0;
+    padding: 0 5% 0 3%;
+  }
+
+  #warranty-para {
+    max-width: 80vw;
+  }
+
+  #main-heading-btm {
+    margin: 0 0 0 250px;
+  }
+
+  #main-heading-mid {
+    margin-left: 150px;
+    color: #ececec;
+    width: 100%;
+  }
+
+  .hero-logo {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
+  #works {
+    padding: 5% 0;
+  }
+
+  .warranty-tagline {
+    float: none;
+    max-width: 100vw;
+    text-align: center;
+  }
+
+  .hero-container {
+    max-height: 500px;
+  }
+
+  .innovation-tagline {
+    top: -15%;
+    right: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .innovation-inner {
+    position: relative;
+  }
+
+  .innovation-inner .content {
+    text-align: center;
+  }
+
+  .innovation-inner-img {
+    overflow: hidden;
+    max-height: 100vw;
+  }
+
+  .innovation-inner .para {
+    margin: 2% 0 4% 0;
+    padding: 0 3% 0 3%;
+  }
+
+  .detail-list {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .hero-logo {
+    max-width: 400px;
+    top: 5%;
+    left: 5%;
+  }
+
+  .main-holder .col {
+    float: none;
+    width: 100%;
+  }
+
+  .product-sec .coll4 {
+    width: 33%;
+    margin: 0 10px;
+  }
+
+  #product-container {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .innovation {
+    padding: 0 4%;
+  }
+  .innovation-inner-img {
+    height:80vw;
+  }
+
+  .innovation-item {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .innovation-tagline {
+    margin: -30px 0 0;
+    z-index: 2;
+  }
+
+  #about .main-header {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 668px) {
+  .product-sec .col .heading {
+    font-size: 5vw;
+  }
+  .product-sec {
+    padding:5% 0 0;
+    
+  }
+
+  .product-sec .col .sub-title {
+    color: #fff;
+    display: block;
+    letter-spacing: 4px;
+    font-size: calc(1.5vw + 1rem);
+    margin: 0;
+  }
+
+  .titan-colors {
+    text-align: center;
+  }
+
+  .hero-logo {
+    max-width: 300px;
+  }
+
+  .btn {
+    font-weight: 700;
+    padding: 12px 10px 14px;
+  }
+
+  .main-holder .col {
+    float: none;
+    width: 100%;
+  }
+
+  .product-sec .coll4 {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  #product-container {
+    display: block;
+  }
+
+  .design {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  h4 {
+    font-size: 1rem;
+  }
+
+  .detail-list {
+    width: 90%;
+  }
+
+  .detail-img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .product-sec .coll4 {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 10px;
+  }
+
+  .hero-logo {
+    max-width: 150px;
+  }
+
+  .innovation {
+    padding: 0;
+  }
+
+  .innovation-tagline {
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+
+  .warranty {
+    text-align: center;
+  }
+
+  #warranty-img {
+    float: none;
+    display: block;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+  .warranty-tagline {
+    float: none;
+    max-width: 100vw;
+    text-align: center;
+    padding: 5% 3%;
+  }
+}
+
+@media (max-width: 300px) {
+  .product-sec .coll4 {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 10px;
+  }
+}

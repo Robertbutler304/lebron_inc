@@ -1,0 +1,114 @@
+td {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+text-align: left;
+}
+
+td p {
+font-size: 14px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+button.btn{
+font-size: 16px;
+color: #d71920;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 2px;
+width: 100%;
+text-align: left;
+outline: none;
+padding: 20px;
+background: transparent;
+border: none;
+}
+
+button.btn.collapsed:before{
+    content: "+";
+float: right !important;
+padding-right: 5px;
+font-size: 35px;
+color: #000;
+margin-top: -20px;
+outline: none;
+}
+
+button.btn:before{
+    content: "-";
+float: right !important;
+padding-right: 5px;
+font-size: 35px;
+color: #000;
+margin-top: -20px;
+outline: none;
+}
+
+.btn{
+white-space: inherit !important;
+}
+
+h2.warranty-title.text-dark{
+text-decoration: none;
+color: #D71920;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+a.warranty-link:hover{
+text-decoration: none;
+color: #000;
+}
+
+.warranty-body{
+padding: 5px;
+border: 1px solid #000;
+margin-top: 20px;
+}
+
+.Qualifying-Shingles{
+border-top: 2px solid #000;
+border-bottom: 2px solid #000;
+margin: 20px 0;
+text-align: center;
+}
+
+.Qualifying-Shingles h4{
+font-size: 16px;
+font-weight: 800;
+width: 80%;
+margin: 20px auto;
+}
+
+.astericks{
+border-bottom: 2px solid #000;
+}
+
+.astericks p {
+font-size: 12px;
+color: #999;
+width: 90%;
+margin: 20px auto;
+text-align: left;
+}
+@media (max-width:981px){
+a.btn.collapsed:before{
+margin-top: 0 !important;
+}
+
+a.btn:before{
+margin-top: 0 !important;
+}
+}
+.site_button{
+    padding: 16px 28px;    
+border-radius: 0;   
+ background: var(--accent-color);   
+ border: none;   
+box-shadow: 0 4px 5px -3px #333;    
+transition: 0.5s;    
+font-weight: bold;
+transition: ease-out 0.4s;
+margin-top: 20px;
+}

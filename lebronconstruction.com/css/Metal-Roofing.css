@@ -1,0 +1,11 @@
+/* Color Swatch Code */
+.dropdown-menu {
+    width: 400px !important;
+    height: auto;
+padding: 20px;
+}
+
+.colors {
+margin: 5px;
+border: solid 1px #000;
+}

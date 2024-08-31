@@ -1,0 +1,755 @@
+.maincontent{
+  max-width:100%;
+  margin:0;
+padding:0;
+}
+#wrapper { 
+  position: relative; 
+  overflow: hidden; 
+  width: 100%; 
+}
+html,
+body{
+  font-size:18px;
+}
+.maincontent_wrapper h1{
+  font-size: calc( 1.5vw + 1.5rem);
+  font-family: antique-olive-nord,sans-serif;
+font-weight: 400;
+font-style: normal;
+color:#c59a37;
+}
+.maincontent_wrapper h2{
+  font-size: calc( .7vw + 1.5rem);
+  font-family: antique-olive-nord,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color:#c59a37;
+}
+.maincontent_wrapper h3{
+  font-size: calc( .8vw + 1rem);
+  font-family: antique-olive-nord,sans-serif;
+  font-weight:300;
+}
+.maincontent_wrapper h4{
+  font-size:1.2rem;
+  font-family: lithos-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.maincontent_wrapper h5{
+  font-size:1rem;
+  font-family: lithos-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.maincontent_wrapper p{
+  font-size:1rem;
+  font-family: utile,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+img { 
+  width: 100%;  
+}
+.btn-dark {
+  font-size:calc(.6vw + .2rem);
+  color:#ececec; 
+  background:transparent;  
+  line-height: 19px; 
+  font-weight: 400; 
+  border:1px solid #ececec;  
+  padding: 16px 20px 18px; 
+  margin: 10px auto; 
+  border-radius: 0; 
+  text-transform: uppercase; 
+  text-align: center; 
+  letter-spacing: 2px; 
+  word-spacing: -1px; 
+  -webkit-transition: all .25s ease; 
+  -o-transition: all .25s ease; 
+  transition: all .25s ease; 
+  -webkit-transition: all 0.25s linear; 
+}
+
+.btn-dark:hover { 
+  background:#c59a37; 
+  border:none; 
+  color:#fff;
+}
+.section-divider { 
+  background-image:linear-gradient(180deg,rgba(51,51,51,.7) 0%,rgba(51,51,51,.9) 100%),
+  url('../imageserver/Reusable/tamko2021/heading-bg.png');
+  background-position: center;
+  background-size:cover; 
+}
+
+ #preload{
+  background-image:
+  url('../404.html'),
+  url('../404.html'),
+  url('../404.html'),
+  url('../404.html'),
+  url('../404.html'),
+  url('../404.html')
+  url('../404.html'),
+  url('../404.html'),
+  url('../404.html');
+}
+
+/* ==================== Section1 ===================== */
+
+.section1-container{
+  padding:3% 2%
+}
+#section1-img{
+  width:100%;
+  max-width:400px;
+}
+.section1-header-top{
+  margin-left:10vw;
+}
+#section1-header-top{
+  position:relative;
+  display:inline-block;
+}
+#section1-header-top::after{
+  position: absolute;
+  z-index:10;
+  bottom:-5px;
+  left:0;
+  content:"";
+  height:5px;
+  width:115%;
+  border-bottom:1px solid #c59a37;
+}
+#section1-header-btm{
+  margin:5px 0 0 18vw;
+  position: relative;
+  display:inline-block;
+}
+#section1-header-btm::after{
+  position: absolute;
+  z-index:10;
+  bottom:-5px;
+  left:0;
+  content:"";
+  height:5px;
+  width:115%;
+  border-bottom:1px solid #c59a37;
+}
+#section1-header-para{
+  margin:10px 0 0 25vw;
+  width:100%;
+color:#fff;
+}
+
+/* =================== Section2 ======================= */
+.section2 { 
+  overflow: hidden;
+  padding: 0;
+  width:90vw;
+  margin:0 auto; 
+}
+#section2-container{
+  width:90vw;
+  margin:0 auto;
+  display:flex; 
+  justify-content:space-around;
+}
+#section2-container .col{
+  max-height:80vh;
+}
+.section2 .col { 
+  float: left; 
+  position: relative; 
+}
+.section2 .coll1 { 
+  width: 25%; 
+}
+.section2 .coll2 { 
+  width: 50%; 
+}
+.section2 .coll3 { 
+  width: 30%; 
+}
+.section2-center{ 
+  display:flex; 
+  flex-direction: column; 
+  justify-content: center; align-items:center; 
+}
+.section2 .col:hover .box, .section2 .col:hover .over { 
+  opacity: 1; 
+  visibility: visible; 
+}
+.section2 .col:hover .over { 
+  left: 2vw; 
+  right: 2vw;  
+  top: 2vw;  
+  bottom: 2vw;  
+  padding:0 4% 0 4%; 
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction: column;
+}
+.section2 .col .box { 
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  opacity: 0; 
+  visibility: hidden; 
+  -o-transition: all 0.25s linear; 
+  transition: all 0.25s linear; 
+  background: rgba(0, 0, 0, 0.85); 
+  -webkit-transition: all 0.25s linear; 
+}
+.section2 .col .over { 
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  border: 1px solid #fff; 
+  padding: 20px; 
+  opacity: 0; 
+  visibility: hidden; 
+  -o-transition: all 0.25s linear; 
+  transition: all 0.25s linear; 
+  -webkit-transition: all 0.25s linear; 
+}
+.section2 .col .heading { 
+  margin: 0 0 10px; 
+  padding: 0 0 13px; 
+  letter-spacing: 1px; 
+  line-height:1.2; 
+}
+.section2 .col .sub-title { 
+  color: #fff; 
+  display: block; 
+  letter-spacing: 4px; 
+  margin:20px 0 0; 
+}
+
+
+/* ====================== Section 3 ========================== */
+.section3-container{
+  color:#fff;
+  padding:3% 0;
+}
+#americas-img{
+  margin:0 0 0 22vw;
+}
+#americas-text{
+  margin:0 0 0 24vw;
+  width:100%;
+  max-width:70%;
+  text-align:center;
+}
+#classic-img{
+  margin:0 -24vw 0 0;
+}
+#classic-text{
+  margin:0 -20vw 0 0;
+  max-width:70%;
+  width:100%;
+  text-align:center;
+}
+.classic-color{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-end;
+  overflow:hidden;
+}
+.americas-color{
+  overflow:hidden;
+}
+
+
+
+/* ======================= Section 4 ======================== */
+
+.show-tab{
+  height:75px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.overlay { 
+  z-index: 0; 
+  position: relative; 
+}
+.txt-holder p{
+  font-weight:300;
+  font-size:1.2rem;
+}
+.bg-full { 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.main-holder .holder { 
+  overflow: hidden; 
+  margin:0 auto; 
+}
+
+.main-holder .col { 
+  float: left; 
+  width: 50%; 
+}
+
+.main-holder .col.tab-content { 
+  max-height: 500px; 
+}
+
+.main-holder .col.col3 { 
+  min-height: 563px; 
+}
+
+.main-holder .col.col4 { 
+  float: right; 
+  padding: 75px 80px; 
+}
+
+.main-holder .txt-holder { 
+  width:85%; 
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  opacity: 1; 
+  visibility: visible; 
+  -webkit-transform: translate(-50%, -50%); 
+  -ms-transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
+  background:rgba(0,0,0,0.5); 
+  border: 1px solid #fff; 
+  color: #000; 
+  letter-spacing: 1px; 
+  padding: 72px 80px; 
+  -o-transition: all 0.35s linear; 
+  transition: all 0.35s linear; 
+  -webkit-transition: all 0.35s linear; 
+}
+
+.main-holder .txt-holder .heading { 
+  margin: 0 0 8px; 
+  padding: 0 0 15px; 
+}
+
+.main-holder .txt-holder p { 
+  margin: 0; 
+}
+
+.main-holder .header {
+  background:url('');  
+  color: #2b2b2b; 
+  margin: 0 0 26px; 
+  letter-spacing: 1px; 
+}
+
+.main-holder .heading { 
+  margin: 0 0 15px; 
+  color: #2b2b2b; 
+  word-spacing: 3px; 
+}
+
+.main-holder .tabset { 
+  text-align:center;  
+}
+.tabset a:hover {
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.tabset .title:hover{
+  color:#c59a37;
+}
+
+
+
+
+.main-holder .tabset a{
+  margin:25px 0;
+}
+
+.main-holder .tabset .active:before { 
+  width: 50px; 
+}
+
+.main-holder .tabset .active .icon i { 
+  -ms-transform: translateY(-65px); 
+  transform: translateY(-65px); 
+  -webkit-transform: translateY(-65px); 
+}
+
+.main-holder .tabset .active .icon i + i { 
+  -ms-transform: translateY(-56px); 
+  transform: translateY(-56px); 
+  -webkit-transform: translateY(-56px); 
+}
+
+.main-holder .tabset a { 
+  display: block; 
+  position: relative; 
+  z-index: 1; 
+  -o-transition: all 0.25s linear; 
+  transition: all 0.25s linear; 
+  -webkit-transition: all 0.25s linear; 
+}
+
+.main-holder .tabset a:before { 
+  z-index: 0; 
+  width: 0; 
+  height: 3px; 
+  -webkit-transform: translateX(-50%); 
+  -ms-transform: translateX(-50%); 
+  transform: translateX(-50%); 
+  -o-transition: all 0.25s linear; 
+  transition: all 0.25s linear; 
+  -webkit-transition: all 0.25s linear; 
+  position: absolute; 
+  content: ""; 
+  z-index: -1; 
+  left: 50%; 
+  top: auto; 
+  bottom: -10px; 
+  right: auto; 
+  background-color:#c59a37;
+}
+
+.main-holder .tabset a:hover:before { 
+  width: 110px; 
+}
+
+.main-holder .tabset a:hover .icon i { 
+  -ms-transform: translateY(-65px); 
+  transform: translateY(-65px); 
+  -webkit-transform: translateY(-65px); 
+}
+
+.main-holder .tabset .icon i { 
+  display: block; 
+  -o-transition: all 0.25s linear; 
+  transition: all 0.25s linear; 
+  -webkit-transition: all 0.25s linear; 
+}
+
+.main-holder .tabset .icon i + i { 
+  -ms-transform: translateY(10px); 
+  transform: translateY(10px); 
+  -webkit-transform: translateY(10px); 
+}
+
+.main-holder .tabset .title {  
+  line-height: 21px; 
+  color: #2b2b2b; 
+  font-weight: 700; 
+  display: block; 
+  letter-spacing: 2px; 
+  word-spacing: -2px; 
+  text-transform: uppercase; 
+  -o-transition: all 0.25s linear; 
+  transition: all 0.25s linear; 
+  -webkit-transition: all 0.25s linear; 
+}
+/* ====================== Americas Section ===================== */
+
+.americas-sec .holder{
+  background-image:url("../imageserver/Reusable/tamko2021/flag-cropped.png");
+  background-repeat:no-repeat;
+  background-size:50%;
+  background-position:right bottom;
+}
+#flag-hr{
+  border-top:1px solid black;
+  max-width:50%;
+  margin:1px 0 20px;
+}
+.vimeo{
+    max-height:470px; 
+    max-width:50%;
+    overflow:hidden;
+    object-fit:cover;
+    text-align:center;
+}
+/* ======================= Btm Section ======================== */
+.btm-header .container{
+  padding:3% 2%;
+  text-align:center;
+}
+#btm-header-para{
+  margin:0 auto;
+  max-width:1500px;
+}
+.btm-header p{
+  color:white;
+}
+
+/* ------------------------- Media Queries -------------------- */
+
+@media (min-width: 1800px) {
+  #americas-img{
+    margin:0 0 0 33vw;
+  }
+  #americas-text{
+    margin:0 0 0 33vw;
+    width:100%;
+    max-width:70%;
+    text-align:center;
+  }
+  #classic-img{
+    margin:0 33vw 0 0;
+  }
+  #classic-text{
+    margin:0 31vw 0 0;
+    max-width:70%;
+    width:100%;
+    text-align:center;
+  }
+}
+@media (min-width: 1451px) and (max-width:1799px) {
+  #americas-img{
+    margin:0 0 0 32vw;
+  }
+  #americas-text{
+    margin:0 0 0 32vw;
+    width:100%;
+    max-width:70%;
+    text-align:center;
+  }
+  #classic-img{
+    margin:0 32vw 0 0;
+  }
+  #classic-text{
+    margin:0 32vw 0 0;
+    max-width:70%;
+    width:100%;
+    text-align:center;
+  }
+}
+@media (min-width: 1300px) and (max-width:1450px) {
+  #americas-img{
+    margin:0 0 0 28vw;
+  }
+  #americas-text{
+    margin:0 0 0 31vw;
+    width:100%;
+    max-width:70%;
+    text-align:center;
+  }
+  #classic-img{
+    margin:0 30vw 0 0;
+  }
+  #classic-text{
+    margin:0 30vw 0 0;
+    max-width:70%;
+    width:100%;
+    text-align:center;
+  }
+}
+@media (min-width: 993px) and (max-width:1299px) {
+  #americas-img{
+    margin:0 0 0 32vw;
+  }
+  #americas-text{
+    margin:0 0 0 40vw;
+    width:100%;
+    max-width:70%;
+    text-align:center;
+  }
+  #classic-img{
+    margin:0 34vw 0 0;
+  }
+  #classic-text{
+    margin:0 40vw 0 0;
+    max-width:70%;
+    width:100%;
+    text-align:center;
+  }
+}
+@media (max-width: 1450px) {
+  .section1-header-top{
+    margin-left:100px;
+  }
+  #section1-header-btm{
+    margin:1% 0 0 200px;
+  }
+  #section1-header-para{
+    margin-left:300px;
+    color:#ececec;
+    width:100%;
+  }
+}
+@media (max-width: 1350px) {
+  #section1-header-top{
+    margin-left:5%;
+    transform:translateX(0) !important;
+  }
+  #section1-header-btm{
+    margin:1% 0 0 10%;
+    transform:translateX(0) !important;
+  }
+  #section1-header-para{
+    margin-left:15%;
+    transform:translateX(0) !important;
+    color:#ececec;
+    width:100%;
+  }
+}
+@media (max-width: 1299px) {
+  .section2 { 
+    width:100vw;
+  }
+  #section2-container{
+    width:100vw;
+  }
+  .section2 .coll3{
+    width:50%;
+  }
+}
+  @media (max-width: 1200px) {
+    
+    #section1-header-top{
+      margin-left:3%;
+    }
+    #section1-header-btm{
+      margin:1% 0 0 4%;
+    }
+    #section1-header-para{
+      margin-left:5%;
+      color:#ececec;
+      width:100%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .section1-container { 
+      padding: 40px 10px;
+      text-align:center; 
+    }
+    #section1-img{
+      margin-bottom:10px;
+      max-width:300px;
+    }
+    #section1-header-top{
+      margin-left:0;
+    }
+    #section1-header-btm{
+      margin:1% 0 0 0;
+    }
+    #section1-header-para{
+      margin-left:0;
+      color:#ececec;
+      width:100%;
+    }
+    #section1-header-btm::after{
+      width:100%;
+    }
+      #section1-header-top::after{
+        width:100%
+    }
+    #americas-img{
+      transform:translateX(0) !important;
+      margin:0;
+    }
+    #americas-text{
+      transform:translateX(0) !important;
+      margin:0;
+      width:100%;
+      max-width:80%;
+    }
+    #classic-img{
+      transform:translateX(0) !important;
+      margin:0;
+    }
+    #classic-text{
+      transform:translateX(0) !important;
+      margin:0;
+      max-width:80%;
+      width:100%;
+      text-align:center;
+    }
+    .classic-color{
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      overflow:hidden;
+    }
+    .americas-color{
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      overflow:hidden;
+    }
+    .americas-sec .holder{
+      background-image:url("../imageserver/Reusable/tamko2021/flag-cropped.png");
+      background-repeat:no-repeat;
+      background-size:200%;
+      background-position:top;
+    }
+    .flag-sec{
+      background:rgba(255,255,255,0.8);
+      text-align:center;
+    }
+    #flag-hr{
+      border-top:1px solid black;
+      max-width:50%;
+      margin:10px auto;
+    }
+    .vimeo{
+      max-width:100%;
+    }
+    .design{ 
+      display:none;
+    }
+    .section2 .coll3{
+      width:100%;
+      float:none;
+    }
+    .main-holder .col { 
+      float: none; 
+      width: 100%; 
+    }
+    .section2 .coll1 { 
+      width: 100%; 
+    }
+    .section2 .coll2 { 
+      width: 100%; 
+    }
+    .section2 .coll3 { 
+      width: 100%; 
+    }
+  }
+  @media (max-width: 768px) {
+    .americas-sec .holder{
+      background-size:100%;
+      background-position:0 120%;
+    }
+  }
+
+  @media (max-width: 668px) {
+    html,
+    body{
+      font-size:16px;
+    }
+    #section2-container{
+      display:block; 
+    }
+    .design{ 
+      display:none;
+    }
+    #section1-header-img{
+      margin-bottom:10px;
+      max-width:200px;
+    }
+    
+  }
+
+  @media (max-width: 400px) {
+    .section2 .col .sub-title{
+      display:none;
+    }
+  }
